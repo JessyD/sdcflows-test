@@ -110,9 +110,9 @@ def test_unwarp_wf(datadir, workdir, outdir):
 
 if __name__ == '__main__':
     datadir = Path('/data/HCP/hcp_test_bids/sub-132118')
-    workdir = Path('test_wk')
+    workdir = Path('/data/jdafflon/sdcflows_tests/test_wk')
     workdir.mkdir(parents=True, exist_ok=True)
-    outdir = Path('test_out')
+    outdir = Path('/data/jdafflon/sdcflows_tests/test_out')
     outdir.mkdir(parents=True, exist_ok=True)
 
     test_unwarp_wf(datadir, workdir, outdir)
